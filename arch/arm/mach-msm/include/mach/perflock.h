@@ -34,6 +34,12 @@ enum {
 	PERF_LOCK_1024MHz,	/* High performance 1024MHz */
 	PERF_LOCK_1200MHz,	/* High performance 1200MHz */
 	PERF_LOCK_1401MHz,	/* High performance 1401MHz */
+	PERF_LOCK_1516MHz,	/* High performance 1516MHz */
+	PERF_LOCK_1612MHz,	/* High performance 1612MHz */
+	PERF_LOCK_1708MHz,	/* High performance 1708MHz */
+	PERF_LOCK_1804MHz,	/* High performance 1804MHz */
+	PERF_LOCK_1900MHz,	/* High performance 1900MHz */
+	PERF_LOCK_2016MHz,	/* High performance 2016MHz */
 	PERF_LOCK_HIGHEST = CONFIG_SHSYS_CUST_PERFLOCK_STEP_CHANGE, /* Highest performance */
 	PERF_LOCK_INVALID,
 };

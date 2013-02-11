@@ -216,7 +216,7 @@ void truncate_inode_pages_range(struct address_space *mapping,
 	struct pagevec pvec;
 	pgoff_t next;
 	int i;
-	
+
 	cleancache_flush_inode(mapping);
 
 	if (mapping->nrpages == 0)
@@ -493,7 +493,6 @@ int invalidate_inode_pages2_range(struct address_space *mapping,
 		mem_cgroup_uncharge_end();
 		cond_resched();
 	}
-
 	cleancache_flush_inode(mapping);
 	return ret;
 }
